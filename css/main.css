@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
+
+body {
+    background-color: rgb(163, 163, 163);
+}
+
+.portada{
+    background-image: url("../Img/fotoPortada.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.textoInicio {
+    height: 90vh;    
+}
+
+.btnComprar {
+    background-color: brown;
+}
+
+/** Productos **/
+
+#contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    box-shadow: 12px 10px 29px 0px rgba(229, 179, 186, 0.75);
+    -webkit-box-shadow: 12px 10px 29px 0px rgba(229, 179, 186, 0.75);
+    -moz-box-shadow: 12px 10px 29px 0px rgba(229, 179, 186, 0.75);
+}
+/** CARRITO **/
+
+#textoCarrito {
+    font-size: 30px;
+    color: brown;
+}
+
+.imagenCarrito {
+    height: 15vh;
+}
+
+.datoscarrito {
+    display: flex; 
+    color: black;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.infoCarrito {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;     
+    color: white;
+    padding: 1rem;
+    align-items: center; 
+    background-color: rgb(110, 109, 109);
+    border: 1px solid; 
+    margin-bottom: 5px;
+    gap: 1rem;
+}
+
+#contenedorBotones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnVaciar {
+    height: 8vh;
+    border: 0;
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 17px ;
+    cursor: pointer;
+    
+}
+
+.totalCarrito {
+    padding-right: 150px;
+    height: 8vh;
+    display: flex;
+    border: 0;
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+/** Librería Sweet**/
+
+.swal2-popup {
+    background-color: white;
+
+}
+
+
+

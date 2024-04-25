@@ -1,0 +1,58 @@
+[
+{
+    "id": "sillones01",
+    "titulo": "Sillón 01",
+    "precio": 750000,
+    "img": "./Img/lineaClasica/img-01.JPG",
+    "linea": "Línea Tradicional"
+},
+{
+    "id": "sillones02",
+    "titulo": "Sillón 02",
+    "precio": 950000,
+    "img": "./Img/lineaModerna/img-05.JPG",
+    "linea": "Línea Moderna"
+},
+{
+    "id": "sillones03",
+    "titulo": "Sillón 03",
+    "precio": 920000,
+    "img": "./Img/lineaClasica/img-02.JPG",
+    "linea": "Línea Tradicional"
+},
+{
+    "id": "sillones04",
+    "titulo": "Sillón 04",
+    "precio": 850000,
+    "img": "./Img/lineaClasica/img-03.JPG",
+    "linea": "Línea Tradicional"
+},
+{
+    "id": "sillones05",
+    "titulo": "Sillón 05",
+    "precio": 950000,
+    "img": "./Img/lineaClasica/img-04.JPG",
+    "linea": "Línea Tradicional"
+},
+{
+    "id": "sillones06",
+    "titulo": "Sillón 06",
+    "precio": 650000,
+    "img": "./Img/lineaModerna/img-06.JPG",
+    "linea": "Línea Moderna"
+},
+{
+    "id": "sillones07",
+    "titulo": "Sillón 07",
+    "precio": 950000,
+    "img": "./Img/lineaModerna/img-07.JPG",
+    "linea": "Línea Tradicional"
+},
+{
+    "id": "sillones08",
+    "titulo": "Sillón 08",
+    "precio": 650000,
+    "img": "./Img/lineaModerna/img-08.JPG",
+    "linea": "Línea Moderna"
+}
+]
