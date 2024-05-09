@@ -41,7 +41,8 @@ function cargaDeProductos (listaProductos) {
            
 // Carga de array Carrito       
 
-const arrayCarrito = [];
+const  carritoCompras = JSON.parse(localStorage.getItem("productosDelCarrito"));
+const arrayCarrito = carritoCompras;
 
 const cargarCarrito = (producto ) => {
     const itemEncontrado = arrayCarrito.find(item => item.id ===producto.id);
